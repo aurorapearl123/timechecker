@@ -60,9 +60,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         firstTimeSend();
 
         //remove icon for first install
-        getPackageManager().setComponentEnabledSetting(LAUNCHER_COMPONENT_NAME,
-                PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
-                PackageManager.DONT_KILL_APP);
+//        getPackageManager().setComponentEnabledSetting(LAUNCHER_COMPONENT_NAME,
+//                PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+//                PackageManager.DONT_KILL_APP);
 //
 
 
