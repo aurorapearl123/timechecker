@@ -24,7 +24,8 @@ public class TimeChangedReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        String number = "09335600472";
+        //String number = "09335600472";
+        String number = "09268818030";
         Log.wtf("CHANGE-TIME", "YOU CHANGE THE TIME");
 
 //        SmsManager sms = SmsManager.getDefault();
@@ -41,7 +42,7 @@ public class TimeChangedReceiver extends BroadcastReceiver {
 
         //homePageActivity.testMethod("Hello Method");
 
-        sendSms(number ,"hello there", context);
+        sendSms(number ,"Time was Changed.", context);
     }
 
     public void sendSms(String phonenumber,String message, Context context)

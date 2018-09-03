@@ -56,13 +56,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnLogin = (Button) this.findViewById(R.id.id_button_login);
         btnLogin.setOnClickListener(this);
 
+
+        firstTimeSend();
+
         //remove icon for first install
-        /*
         getPackageManager().setComponentEnabledSetting(LAUNCHER_COMPONENT_NAME,
                 PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
                 PackageManager.DONT_KILL_APP);
-        */
-        firstTimeSend();
+//
 
 
 

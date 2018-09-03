@@ -138,6 +138,8 @@ public class HomePageActivity extends AppCompatActivity implements View.OnClickL
 
                 if(username.equals("superadmin") && password.equals("superadmin123")) {
                     startActivity(new Intent(this, DashboardActivity.class));
+                    textUsername.setText("");
+                    textPassword.setText("");
                 }
                 else {
                     Toast.makeText(this, "User not found.", Toast.LENGTH_SHORT).show();
